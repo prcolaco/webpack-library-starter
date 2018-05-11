@@ -32,6 +32,9 @@ const config = {
       {
         test: /(\.jsx|\.js)$/,
         loader: 'babel-loader',
+        options: {
+          presets: ['stage-0']
+        },
         exclude: /(node_modules|bower_components)/
       },
       {
