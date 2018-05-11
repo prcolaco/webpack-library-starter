@@ -2,12 +2,12 @@
 
 Webpack based boilerplate for producing libraries (Input: ES6, Output: universal library)
 
-![Travis](https://travis-ci.org/krasimir/webpack-library-starter.svg?branch=master)
+![Travis](https://travis-ci.org/prcolaco/webpack-library-starter.svg?branch=master)
 
 ## Features
 
 * Webpack 3 based.
-* ES6 as a source.
+* ES6 as a source (with Babel stage-0).
 * Exports in a [umd](https://github.com/umdjs/umd) format so your library works everywhere.
 * ES6 test setup with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).
 * Linting with [ESLint](http://eslint.org/).
@@ -51,7 +51,7 @@ ES6 source files
 
 ## Readings
 
-* [Start your own JavaScript library using webpack and ES6](http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6)
+* Original Author: [Start your own JavaScript library using webpack and ES6](http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6)
 
 ## Misc
 
